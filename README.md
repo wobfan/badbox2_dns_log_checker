@@ -14,7 +14,7 @@ A simple Python script to search NextDNS logs for BadBox2 malware C2 domains.
 1. Place your NextDNS log file (`XXXXXX.csv`) in the project directory
 2. Run the script:
    ```bash
-   python badbox2_dns_checker.py
+   python3 badbox2_dns_checker.py
    ```
 
 The script will search for known BadBox2 C2 domains and report any matches found in your DNS logs.
